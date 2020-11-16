@@ -1,0 +1,31 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.informations {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.informations input {
+  width: 50%;
+  height: 2rem;
+  padding-left: 1rem;
+}
+
+.informations button {
+  margin-top: 2rem;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.informations button:hover {
+  background-color: aquamarine;
+  color:white;
+  border: 1px white solid;
+  border-radius: 5px;
+}
